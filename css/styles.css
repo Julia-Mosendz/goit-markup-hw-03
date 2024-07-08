@@ -42,7 +42,7 @@ img {
 }
 
 .header-container {display: flex; 
-align-items: ;}
+align-items: center;}
 
 .header-nav {
     display: flex;
@@ -57,16 +57,13 @@ align-items: ;}
     color: #2e2f42;
 }
 
-.footer-logo {
-    margin-bottom: 16px;
-}
 
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
 
 
-.nav-link {
+.nav-link {display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -82,6 +79,7 @@ align-items: ;}
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-link {
@@ -103,13 +101,6 @@ align-items: ;}
     gap: 40px;
 }
 
-.nav-item {
-    padding: 24px 0;
-}
-
-.contacts-item {
-    padding: 24px 0;
-}
 
 .contacts-list {
     display: flex;
@@ -123,6 +114,13 @@ align-items: ;}
 
 .main-header {
     max-width: 496px;
+    font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        margin: 0 auto;
+        margin-bottom: 48px;
 }
 
 
@@ -139,6 +137,7 @@ align-items: ;}
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .button:hover {
@@ -185,14 +184,12 @@ align-items: ;}
 
 .section-two-header {
     margin-bottom: 8px;
-    text-align: center;
 }
 
 .section-two-paragraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
-}
+   }
 
 .section-three {
     background-color: #F4F4FD;
@@ -223,16 +220,25 @@ align-items: ;}
 .container-mark {
     padding: 32px 0;
 }
-
-
-
-.main-header {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #ffffff;
-}
+    text-align: center;
+    color: #2e2f42;
+margin-bottom: 8px;}
+
+.team-paragraph {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;}
+
+
+
+
 
 .section-four {
     padding-top: 120px;
@@ -247,6 +253,13 @@ align-items: ;}
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
+
+.section-four-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
 
 .section-four-list {
     display: flex;
